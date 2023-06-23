@@ -1,0 +1,14 @@
+v = float(input("enter velocity km/h"))
+if v > 1:
+    print("accept")
+    t = float(input("enter time per hour"))
+    if t > 1:
+        print("accept")
+        s = v / t
+        print(s, "km/h")
+    else:
+        print("error")
+else:
+    print("error")
+
+
